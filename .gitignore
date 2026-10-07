@@ -1,0 +1,22 @@
+# Python FastAPI Project
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+node_modules/
+dist/
+build/
+
+# Keep these tracked
+! .env.example
+! README.md
+! DEVELOPMENT_PLAN.md
+! PROJECT_SPEC.md
+! apps/api/requirements.txt
+! apps/api/Dockerfile
+! apps/api/app/main.py
+! apps/api/tests/test_health_endpoint.py
+! docs/architecture.md
+! docs/decisions.md
